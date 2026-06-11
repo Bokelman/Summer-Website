@@ -1,0 +1,77 @@
+
+* {
+    color: white;
+}
+
+:root {
+    --main-color: rgba(62, 0, 120, 0.627);
+}
+
+.castoro-titling-bold {
+  font-family: "Castoro Titling", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+body {
+    background-image: url(ravens_wallpaper.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#table-container {
+    display: flex;
+    font-size: 1.5rem;
+}
+
+#playoffs {
+    font-weight: bolder;
+}
+
+caption {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 1rem;
+}
+
+th, td {
+    border: 0.01rem solid black;
+    text-align: center;
+}
+
+thead, tbody {
+    background-color: var(--main-color);
+}
+
+thead th {
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+thead th {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+tbody tr:nth-child(2n) {
+    background-color: black;
+}
+
+a + h1 {
+    margin-top: 3rem;
+}
+
+tr > td {
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+}
